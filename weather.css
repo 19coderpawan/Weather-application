@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    /* background-color: #000000d0; */
+    background-image: url(https://source.unsplash.com/1600x900/?landscape);
+}
+
+.input_field {
+    border-radius: 10px;
+    text-align: center;
+    height: 30px;
+    width: 190px;
+    background: #7c7c7c2b;
+    color: white;
+    outline: none;
+    border: none;
+    width: 100%;
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_btn {
+    margin: 5px;
+    border-radius: 50px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: #7c7c7c2b;
+    transition: 0.5s ease-in-out;
+}
+
+.search_btn:hover {
+    cursor: pointer;
+    background: #7c7c7c6b;
+    color: white;
+}
+
+.card {
+    background: #000000d0;
+    color: whitesmoke;
+    border-radius: 30px;
+    padding: 50px;
+    width: 100%;
+    max-width: 400px;
+    font-family: 'Roboto Slab', serif;
+}
+.display{
+    visibility: hidden;
+}
+.temperature{
+    font-size:19px;
+    margin-bottom:19px;
+}
