@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Weather forecasting </title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="icon" href="img/weather.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="input_field" placeholder="Search">
+            <button class="search_btn"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                    viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z">
+                    </path>
+                    <path
+                        d="M11.412,8.586C11.791,8.966,12,9.468,12,10h2c0-1.065-0.416-2.069-1.174-2.828c-1.514-1.512-4.139-1.512-5.652,0 l1.412,1.416C9.346,7.83,10.656,7.832,11.412,8.586z">
+                    </path>
+                </svg></button>
+        </div>
+        <div class="weather display">
+          <div class="flex">
+            <h2 class="city">Weather in Uttar Pradesh</h2>
+            <h1 class="temperature">10°C</h1>
+            <img src="" alt="" class="weather_image" />
+        </div>  
+            <div class="description">Windy</div>
+            <div class="humidity">Humidity: 60%</div>
+            <div class="wind">Wind speed :20 km/hr</div>
+        </div>
+    </div>
+    <script src="weather_scripting.js"></script>
+</body>
+
+</html>
